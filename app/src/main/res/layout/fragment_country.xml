@@ -57,8 +57,20 @@
         android:id="@+id/countryLanguage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="countryCurrency"
+        android:text="countryLanguage"
         android:layout_below="@id/countryCurrency"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="7dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/countryRegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="countryRegion"
+        android:layout_below="@id/countryLanguage"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_margin="7dp"
