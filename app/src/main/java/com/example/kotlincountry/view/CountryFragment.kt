@@ -37,7 +37,7 @@ class CountryFragment : Fragment() {
         arguments?.let {
             countryUuid = CountryFragmentArgs.fromBundle(it).countryUuid
         }
-
+        observeLiveData()
     }
 
     private  fun observeLiveData(){
